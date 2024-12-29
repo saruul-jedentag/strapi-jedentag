@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbackend_jedentag=self.webpackChunkbackend_jedentag||[]).push([[7378],{17378:(E,t,n)=>{n.r(t),n.d(t,{AUTH_ROUTES_EE:()=>d});var s=n(67294);const d=[{component:s.lazy(()=>n.e(4544).then(n.bind(n,84544)).then(h=>({default:h.AuthResponse}))),path:"/auth/login/:authResponse"}]}}]);

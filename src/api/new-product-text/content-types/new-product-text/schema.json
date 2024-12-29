@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_product_texts",
+  "info": {
+    "singularName": "new-product-text",
+    "pluralName": "new-product-texts",
+    "displayName": "New_Product | Text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

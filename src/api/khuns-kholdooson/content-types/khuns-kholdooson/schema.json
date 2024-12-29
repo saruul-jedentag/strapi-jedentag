@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "khuns_kholdoosons",
+  "info": {
+    "singularName": "khuns-kholdooson",
+    "pluralName": "khuns-kholdoosons",
+    "displayName": "Khuns | kholdooson",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "une": {
+      "type": "integer",
+      "required": true
+    },
+    "too": {
+      "type": "integer"
+    },
+    "perc": {
+      "type": "integer",
+      "required": true
+    },
+    "pic": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "uld": {
+      "type": "integer"
+    },
+    "desc": {
+      "type": "richtext",
+      "required": true
+    },
+    "gr": {
+      "type": "string"
+    },
+    "box": {
+      "type": "integer"
+    },
+    "expand1": {
+      "type": "string"
+    },
+    "expand2": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "ГЭР АХУЙ | АХУЙН БАРАА",
+        "ГЭР АХУЙ | ЦЭВЭРЛЭГЭЭНИЙ БОДИС",
+        "ГОО САЙХАН | АРЬС АРЧИЛГАА",
+        "ГОО САЙХАН | ЭРҮҮЛ АХУЙ",
+        "ХҮНС",
+        "ХҮНС | АМТТАН",
+        "ХҮНС | ӨРГӨН ХЭРЭГЛЭЭ",
+        "ХҮНС | УНДАА, ШИНГЭН ХҮНС",
+        "ХҮНС |  ӨГЛӨӨНИЙ ХООЛ",
+        "ХҮНС | ХӨЛДӨӨСӨН ХҮНС",
+        "ХҮНС | ЦАЙ, КОФЕ, КАКАО",
+        "ХҮНС | НӨӨШИЛСӨН ХҮНС",
+        "ХҮНС | АМТЛАГЧУУД"
+      ],
+      "default": "ХҮНС | ХӨЛДӨӨСӨН ХҮНС",
+      "required": true
+    },
+    "storage": {
+      "type": "string",
+      "default": "Хадгалах журам: "
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "sent",
+        "delete"
+      ],
+      "default": "draft",
+      "required": true
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

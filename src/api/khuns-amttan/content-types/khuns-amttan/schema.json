@@ -1,0 +1,97 @@
+{
+  "kind": "collectionType",
+  "collectionName": "khuns_amttans",
+  "info": {
+    "singularName": "khuns-amttan",
+    "pluralName": "khuns-amttans",
+    "displayName": "Khuns | Amttan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "une": {
+      "type": "decimal",
+      "required": true
+    },
+    "too": {
+      "type": "integer",
+      "required": false
+    },
+    "perc": {
+      "type": "integer",
+      "required": true
+    },
+    "pic": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "uld": {
+      "type": "integer"
+    },
+    "desc": {
+      "type": "richtext",
+      "required": true
+    },
+    "gr": {
+      "type": "decimal"
+    },
+    "box": {
+      "type": "integer"
+    },
+    "storage": {
+      "type": "string",
+      "default": "Хадгалах журам: "
+    },
+    "expand1": {
+      "type": "string"
+    },
+    "expand2": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "sent",
+        "delete"
+      ],
+      "default": "draft",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "ГЭР АХУЙ | АХУЙН БАРАА",
+        "ГЭР АХУЙ | ЦЭВЭРЛЭГЭЭНИЙ БОДИС",
+        "ГОО САЙХАН | АРЬС АРЧИЛГАА",
+        "ГОО САЙХАН | ЭРҮҮЛ АХУЙ",
+        "ХҮНС",
+        "ХҮНС | АМТТАН",
+        "ХҮНС | ӨРГӨН ХЭРЭГЛЭЭ",
+        "ХҮНС | УНДАА, ШИНГЭН ХҮНС",
+        "ХҮНС |  ӨГЛӨӨНИЙ ХООЛ",
+        "ХҮНС | ХӨЛДӨӨСӨН ХҮНС",
+        "ХҮНС | ЦАЙ, КОФЕ, КАКАО",
+        "ХҮНС | НӨӨШИЛСӨН ХҮНС",
+        "ХҮНС | АМТЛАГЧУУД"
+      ],
+      "default": "ХҮНС | АМТТАН",
+      "required": true
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
