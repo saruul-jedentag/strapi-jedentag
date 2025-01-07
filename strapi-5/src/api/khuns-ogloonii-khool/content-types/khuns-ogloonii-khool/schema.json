@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "khuns_ogloonii_khools",
+  "info": {
+    "singularName": "khuns-ogloonii-khool",
+    "pluralName": "khuns-ogloonii-khools",
+    "displayName": "Khuns | Ogloonii khool",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profiles.profile",
+      "required": true
+    },
+    "pic": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "suburl": {
+      "type": "enumeration",
+      "enum": [
+        "/api/khuns-ogloonii-khools"
+      ],
+      "default": "/api/khuns-ogloonii-khools",
+      "required": true
+    }
+  }
+}

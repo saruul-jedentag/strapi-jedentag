@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goo_saikhan_eruul_akhuis",
+  "info": {
+    "singularName": "goo-saikhan-eruul-akhui",
+    "pluralName": "goo-saikhan-eruul-akhuis",
+    "displayName": "GooSaikhan | Eruul akhui",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profiles.profile",
+      "required": true
+    },
+    "pic": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "suburl": {
+      "type": "enumeration",
+      "enum": [
+        "/api/goo-saikhan-eruul-akhuis"
+      ],
+      "default": "/api/goo-saikhan-eruul-akhuis",
+      "required": true
+    }
+  }
+}

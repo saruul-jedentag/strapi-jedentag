@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ger_akhui_akhuin_baraas",
+  "info": {
+    "singularName": "ger-akhui-akhuin-baraa",
+    "pluralName": "ger-akhui-akhuin-baraas",
+    "displayName": "GerAkhui | Akhuin baraa ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profiles.profile"
+    },
+    "pic": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images", "files"]
+    },
+    "suburl": {
+      "type": "enumeration",
+      "enum": ["/api/ger-akhui-akhuin-baraas"],
+      "default": "/api/ger-akhui-akhuin-baraas",
+      "required": true
+    }
+  }
+}

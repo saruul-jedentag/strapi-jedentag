@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goo_saikhan_aris_archilgaas",
+  "info": {
+    "singularName": "goo-saikhan-aris-archilgaa",
+    "pluralName": "goo-saikhan-aris-archilgaas",
+    "displayName": "GooSaikhan | Aris archilgaa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profiles.profile",
+      "required": true
+    },
+    "pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "suburl": {
+      "type": "enumeration",
+      "enum": [
+        "/api/goo-saikhan-aris-archilgaas"
+      ],
+      "default": "/api/goo-saikhan-aris-archilgaas",
+      "required": true
+    }
+  }
+}

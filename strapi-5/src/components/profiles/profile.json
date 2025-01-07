@@ -1,0 +1,81 @@
+{
+  "collectionName": "components_profiles_profiles",
+  "info": {
+    "displayName": "profile",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "une": {
+      "type": "decimal",
+      "required": true
+    },
+    "too": {
+      "type": "integer"
+    },
+    "perc": {
+      "type": "integer",
+      "default": 0
+    },
+    "uld": {
+      "type": "integer"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "gr": {
+      "type": "string"
+    },
+    "box": {
+      "type": "integer"
+    },
+    "storage": {
+      "type": "string",
+      "default": "Хадгалах журам: ",
+      "required": true
+    },
+    "statuss": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "send",
+        "delete"
+      ],
+      "default": "draft",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "ГЭР АХУЙ | АХУЙН БАРАА",
+        "ГЭР АХУЙ | ЦЭВЭРЛЭГЭЭНИЙ БОДИС",
+        "ГОО САЙХАН | АРЬС АРЧИЛГАА",
+        "ГОО САЙХАН | ЭРҮҮЛ АХУЙ",
+        "ХҮНС | АМТТАН",
+        "ХҮНС | ӨРГӨН ХЭРЭГЛЭЭ",
+        "ХҮНС | УНДАА, ШИНГЭН ХҮНС",
+        "ХҮНС |  ӨГЛӨӨНИЙ ХООЛ",
+        "ХҮНС | ХӨЛДӨӨСӨН ХҮНС",
+        "ХҮНС | ЦАЙ, КОФЕ, КАКАО",
+        "ХҮНС | НӨӨШИЛСӨН ХҮНС",
+        "ХҮНС | АМТЛАГЧУУД"
+      ],
+      "required": true
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    },
+    "expand1": {
+      "type": "string"
+    },
+    "expand2": {
+      "type": "string"
+    }
+  }
+}
